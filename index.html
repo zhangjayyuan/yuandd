@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>大學課表</h2>
+
+<table>
+<table id="t01">
+  <tr>
+    <th>時間</th>
+    <th>週一</th> 
+    <th>週二</th>
+    <th>週三</th> 
+    <th>週四</th>
+    <th>週五</th> 
+  </tr>
+  <tr>
+    <td style="background-color:rgba(151, 116, 100, 0.781);">18:30~19:20</td>
+    <td rowspan="3" style="background-color:DodgerBlue;">資料結構</td>
+    <td rowspan="2" style="background-color:rgba(39, 209, 209, 0.781);">資訊安全導論</td>
+    <td rowspan="3" style="background-color:rgba(185, 25, 113, 0.781);">資料庫管理系統</td>
+    <td style="background-color:rgba(39, 209, 209, 0.781);">資訊安全導論</td>
+    <td rowspan="3" style="background-color:rgba(51, 219, 17, 0.781);">統計學</td>
+  </tr>
+  <tr>
+    <td style="background-color:rgba(151, 116, 100, 0.781);">19:20~20:05</td>>
+    <td rowspan="2" style="background-color:rgba(2, 44, 39, 0.781);">體育</td>
+  </tr>
+  <tr>
+    <td style="background-color:rgba(151, 116, 100, 0.781);">20:05~20:55</td>
+    <td rowspan="3" style="background-color:rgba(201, 100, 18, 0.781);">網頁設計程式</td>
+  </tr>
+  <tr>
+    <td style="background-color:rgba(151, 116, 100, 0.781);">20:55~21:40</td>
+    <td rowspan="2" style="background-color:rgba(71, 50, 121, 0.781);">社會運動(通識)</td>
+
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:rgba(151, 116, 100, 0.781);">21:40~22:30</td>
+
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</body>
+</html>
